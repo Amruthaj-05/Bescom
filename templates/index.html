@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BESCOM Login</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to BESCOM Portal</h2>
+        <form method="POST" action="/login">
+            <input type="text" name="customer_id" placeholder="Enter Customer ID" required>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="/register">Create one</a></p>
+    </div>
+</body>
+</html>

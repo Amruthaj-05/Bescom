@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome, {{ name }}!</h2>
+        <p><strong>Customer ID:</strong> {{ customer_id }}</p>
+        <p><strong>Address:</strong> {{ address }}</p>
+        <p><strong>Email:</strong> {{ email }}</p>
+        <hr>
+        <h3>Billing Details</h3>
+        <p><strong>Amount Due:</strong> ₹{{ amount }}</p>
+        <p><strong>Status:</strong> {{ status }}</p>
+    </div>
+</body>
+</html>
+
